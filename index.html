@@ -9,7 +9,7 @@
 
 <!-- Uses Animate On Scroll Library - https://michalsnik.github.io/aos/ -->
 
-<div class="zebra full banner justify-content-center d-flex" data-paroller-factor="0.3" data-paroller-type="background">
+<div class="zebra full banner justify-content-center d-flex paroller" data-paroller-factor="0.3" data-paroller-type="background">
     <h1 class="align-self-center" data-aos="slide-up">BOOM!!!</h1>
 </div>
 
@@ -130,7 +130,7 @@
     </div>
 </div>
 
-<div class="third banner-2" data-paroller-factor="0.3" data-paroller-type="background"></div>
+<div class="third banner-2 paroller" data-paroller-factor="0.3" data-paroller-type="background"></div>
 
 <div class="zebra py-5">
     <div class="container text-center">
@@ -196,7 +196,7 @@
 <!-- end of content -->
 
 <script>
-    $('.banner').paroller(); //parallax scroll banner
+    $('.paroller').paroller(); //parallax scroll banner
     AOS.init({ disable: 'mobile' });
 </script>
 
